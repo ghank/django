@@ -1,11 +1,12 @@
-#coding=utf-8
+from django.shortcuts import render
+
+# Create your views here.
 from django.http import HttpResponseRedirect
 from django.shortcuts import render
 from django.contrib.auth.models import User
 from django.template.context import RequestContext
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login as auth_login, logout as auth_logout
-# Create your views here.
 
 def index(request):
     username = 'hank'
