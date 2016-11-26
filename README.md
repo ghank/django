@@ -37,3 +37,12 @@ urlpatterns = patterns('',
     url(r'^register',views.register,name='register'),
 )
 
+使用coverage测试覆盖率工具
+1.10.3
+ImportError: Failed to import test module: jizhang.tests
+shiyanlou_cs419/yunjz_prj/jizhang/tests.py", line 7
+注释掉这行即可，from django.contrib.auth.models import check_password
+1.8.3
+运行正常
+
+
