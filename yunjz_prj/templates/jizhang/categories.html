@@ -37,7 +37,7 @@
                 </tr>
 
                 {% for obj in categories %}
-                    <tr class="{% cycle ,active %}">
+                    <tr>
                         <td data-toggle="tooltip" data-placement="left" title="编辑该分类"><a href="{% url 'jizhang:edit_category' obj.id %}" >{{obj.level}}{{ obj.name}}</a></td>
                         <td>{{ obj.p_category}}</td>
                         <td> {{ obj.get_isIncome_display}} </td>

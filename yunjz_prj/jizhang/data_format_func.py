@@ -1,12 +1,13 @@
 #encoding: utf-8
 
-from .models import Category
+from jizhang.models import Category
 
 def sort_categories(categories,list):
     for category in categories:
         list.append(category)
         sort_categories(category.childs.all(),list)
 
+#
 def get_sorted_categories(username):
     categories=[]
     category_list = Category.objects.filter(user__username=username).filter(p_category=None).all()
@@ -15,6 +16,7 @@ def get_sorted_categories(username):
 
 
 # use after register
+# model的数据保存到数据库里
 def auto_gen_categories(userid):
     new_category=Category(name=u'工作收入',isIncome=True,user_id=userid)
     new_category.save()

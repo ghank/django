@@ -4,7 +4,7 @@ from django.contrib.auth.models import User
 from django.core.urlresolvers import reverse
 
 # Create your models here.
-
+# 分类
 class Category(models.Model):
     INCOME_CHOICES = (
         (True, u'收入'),
@@ -26,10 +26,11 @@ class Category(models.Model):
 
     def level(self):
         if self.p_category:
-            return "-----"+self.p_category.level()
+            return "+"+self.p_category.level()
         else:
             return ""
 
+    #save()函数，django会根据模型的主键，更新或插入数据到数据库里
     def save(self, *args, **kwargs):
         #form保证了子类不能修改isIncome，只能修改顶级父类的isIncome
         #遍历一遍childs，统一设置isIncome
@@ -40,10 +41,15 @@ class Category(models.Model):
 
         super(self.__class__, self).save(*args, **kwargs)
 
+# 收支
 class Item(models.Model):
+    #价格
     price = models.DecimalField(max_digits=20, decimal_places=2, verbose_name=u'金额')
+    #备注
     comment = models.CharField(max_length=200, blank = True, verbose_name=u'注释')
+    #日期
     pub_date = models.DateField(verbose_name=u'日期')
+    #分类 收支的外键
     category = models.ForeignKey(Category,verbose_name=u'分类', related_name='items')
 
     #排序
@@ -62,6 +68,7 @@ class Item(models.Model):
         else:
             return -1*self.price
 
+    #录入数据库
     def save(self, *args, **kwargs):
         if self.price<0:
             self.price = -1*self.price

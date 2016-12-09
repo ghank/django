@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.DEBUG, format='%(asctime)-15s %(user)-8s %(mes
 
 #myApp package
 from accounts.forms import RegisterForm
-# from jizhang.data_format_func import auto_gen_categories
+from jizhang.data_format_func import auto_gen_categories
 
 @login_required
 def index(request):
@@ -31,7 +31,8 @@ def register(request):
             user = User.objects.create_user(username, email, password)
             user.save()
             if _login(request, username, password, template_var):
-                return HttpResponseRedirect("/accounts/index")
+                auto_gen_categories(request.user.id)
+                return HttpResponseRedirect(reverse("jizhang:items"))
     template_var["form"]=form
     return render(request, "accounts/register.html", template_var)
 

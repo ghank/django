@@ -11,9 +11,9 @@ from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 import csv, json
 
 #myApp package
-from .models import Item, Category
-from .forms import ItemForm, CategoryForm, NewCategoryForm, FindItemForm
-from .data_format_func import get_sorted_categories
+from jizhang.models import Item, Category
+from jizhang.forms import ItemForm, CategoryForm, NewCategoryForm, FindItemForm
+from jizhang.data_format_func import get_sorted_categories
 import logging
 
 #shiyan9
