@@ -45,7 +45,7 @@ def login(request):
                 tmp = request.GET['next']
                 return HttpResponseRedirect(tmp)
             except Exception as e:
-                return HttpResponseRedirect("/accounts/index")
+                return HttpResponseRedirect(reverse("jizhang:items"))
         template_var.update({"username":username})
     return render(request, "accounts/login.html", template_var)
 
