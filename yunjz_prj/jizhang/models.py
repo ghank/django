@@ -10,9 +10,12 @@ class Category(models.Model):
         (True, u'收入'),
         (False, u'支出'),
     )
+    #related_name：The name to use for the relation from the related object back to this one.
+    #p_category相当于models.Model的子类
     p_category = models.ForeignKey('self', null=True, blank=True, verbose_name=u"父类名称", related_name='childs')
     name = models.CharField(max_length=20, verbose_name=u"类别名称")
     isIncome = models.BooleanField(choices=INCOME_CHOICES, verbose_name=u"是否收入")
+    # User的外键
     user = models.ForeignKey(User, verbose_name=u"所属用户")
 
     def __unicode__(self):

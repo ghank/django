@@ -24,6 +24,7 @@ import logging
 
 PAGE_ITEM_NUM = 5
 
+# 分页
 def split_page(request, data, page_item_num):
     side_show_page_num = 2
 
@@ -200,6 +201,7 @@ def find_item(request):
 
     return render(request, 'jizhang/find_item.html', {'form':form})
 
+#此部分涉及ajax
 @login_required
 def autocomplete_comments(request):
     term = request.GET.get('term')
@@ -220,5 +222,4 @@ def autocomplete_comments(request):
                                   "label": item.comment+"--"+item.category.name,
                                   "value":item.comment
                 })
-    logging.debug(have_track,json_send)
     return HttpResponse(json.dumps(json_send), content_type="application/json")

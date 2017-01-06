@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4aed2819-f1af-4230-a390-31904cab304c" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/form.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/yunjz_prj/static/libs/bootstrap-3.3.0-dist.zip" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/db.sqlite3" afterPath="$PROJECT_DIR$/yunjz_prj/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/accounts/views.py" afterPath="$PROJECT_DIR$/yunjz_prj/accounts/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/admin.py" afterPath="$PROJECT_DIR$/yunjz_prj/jizhang/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/data_format_func.py" afterPath="$PROJECT_DIR$/yunjz_prj/jizhang/data_format_func.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/forms.py" afterPath="$PROJECT_DIR$/yunjz_prj/jizhang/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/models.py" afterPath="$PROJECT_DIR$/yunjz_prj/jizhang/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/urls.py" afterPath="$PROJECT_DIR$/yunjz_prj/jizhang/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/jizhang/views.py" afterPath="$PROJECT_DIR$/yunjz_prj/jizhang/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/templates/jizhang/categories.html" afterPath="$PROJECT_DIR$/yunjz_prj/templates/jizhang/categories.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/templates/jizhang/find_item_results.html" afterPath="$PROJECT_DIR$/yunjz_prj/templates/jizhang/find_item_results.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/yunjz_prj/templates/jizhang/new_category.html" afterPath="$PROJECT_DIR$/yunjz_prj/templates/jizhang/new_category.html" />
     </list>
     <ignored path="django.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -33,47 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+            <state relative-caret-position="362">
+              <caret line="215" column="23" selection-start-line="215" selection-start-column="23" selection-end-line="215" selection-end-column="23" />
               <folding>
                 <element signature="e#45#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".coverage" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjz_prj/.coverage">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="wsgi.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/yunjz_prj/yunjz/wsgi.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#222#231#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="56" column="14" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="14" />
-              <folding>
-                <element signature="e#14#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -82,8 +40,8 @@
       <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1540">
-              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+            <state relative-caret-position="308">
+              <caret line="14" column="14" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
               <folding>
                 <element signature="e#17#45#0" expanded="true" />
               </folding>
@@ -91,25 +49,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjz_prj/accounts/forms.py">
+      <file leaf-file-name="apps.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/apps.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-374">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#14#38#0" expanded="true" />
+                <element signature="e#0#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/urls.py">
+      <file leaf-file-name="data_format_func.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/data_format_func.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="57" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="57" />
+            <state relative-caret-position="506">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/forms.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1232">
+              <caret line="56" column="14" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="14" />
               <folding>
-                <element signature="e#17#49#0" expanded="true" />
+                <element signature="e#14#38#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,13 +107,13 @@
         <option value="$PROJECT_DIR$/yunjz_prj/yunjz/settings.py" />
         <option value="$PROJECT_DIR$/yunjz_prj/templates/jizhang/items.html" />
         <option value="$PROJECT_DIR$/yunjz_prj/templates/jizhang/categories.html" />
-        <option value="$PROJECT_DIR$/yunjz_prj/jizhang/views.py" />
         <option value="$PROJECT_DIR$/yunjz_prj/accounts/views.py" />
         <option value="$PROJECT_DIR$/yunjz_prj/templates/jizhang/new_category.html" />
         <option value="$PROJECT_DIR$/yunjz_prj/jizhang/urls.py" />
-        <option value="$PROJECT_DIR$/yunjz_prj/jizhang/data_format_func.py" />
         <option value="$PROJECT_DIR$/yunjz_prj/jizhang/forms.py" />
         <option value="$PROJECT_DIR$/yunjz_prj/jizhang/models.py" />
+        <option value="$PROJECT_DIR$/yunjz_prj/jizhang/data_format_func.py" />
+        <option value="$PROJECT_DIR$/yunjz_prj/jizhang/views.py" />
       </list>
     </option>
   </component>
@@ -446,7 +414,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="28" width="1918" height="872" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16763617" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -557,22 +525,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjz_prj/templates/welcome.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjz_prj/templates/base_yunjz.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="578">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yunjz_prj/yunjz/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="675">
@@ -641,26 +593,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1540">
-          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
-          <folding>
-            <element signature="e#17#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="57" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="57" />
-          <folding>
-            <element signature="e#17#49#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/yunjz_prj/templates/jizhang/new_category.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -679,17 +611,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/.coverage">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/templates/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/templates/footer.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/templates/base_yunjz.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="32" column="47" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/data_format_func.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+        <state relative-caret-position="506">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="20" column="57" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="57" />
+          <folding>
+            <element signature="e#17#49#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
+        <state relative-caret-position="1232">
           <caret line="56" column="14" selection-start-line="56" selection-start-column="6" selection-end-line="56" selection-end-column="14" />
           <folding>
             <element signature="e#14#38#0" expanded="true" />
@@ -697,21 +681,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/views.py">
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="62" column="11" selection-start-line="62" selection-start-column="11" selection-end-line="62" selection-end-column="11" />
+        <state relative-caret-position="308">
+          <caret line="14" column="14" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="14" />
           <folding>
-            <element signature="e#45#99#0" expanded="true" />
+            <element signature="e#17#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/yunjz_prj/.coverage">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -721,6 +697,16 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#222#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/yunjz_prj/jizhang/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="215" column="23" selection-start-line="215" selection-start-column="23" selection-end-line="215" selection-end-column="23" />
+          <folding>
+            <element signature="e#45#99#0" expanded="true" />
           </folding>
         </state>
       </provider>

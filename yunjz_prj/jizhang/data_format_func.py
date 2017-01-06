@@ -2,6 +2,7 @@
 
 from jizhang.models import Category
 
+#
 def sort_categories(categories,list):
     for category in categories:
         list.append(category)
@@ -20,6 +21,7 @@ def get_sorted_categories(username):
 def auto_gen_categories(userid):
     new_category=Category(name=u'工作收入',isIncome=True,user_id=userid)
     new_category.save()
+    #
     pid = new_category.id
     sub_category=Category(name=u'工资收入',isIncome=True,user_id=userid,p_category_id=pid)
     sub_category.save()
